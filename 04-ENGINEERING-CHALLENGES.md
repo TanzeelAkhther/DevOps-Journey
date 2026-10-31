@@ -6,7 +6,8 @@ This is the backlog of practical challenges used to test independent engineering
 
 | ID | Domain | Challenge | Status | Evidence / outcome |
 |---|---|---|---|---|
-| CH-001 | Baseline | Complete an initial skills and workstation assessment | Open | |
+| CH-001 | Baseline | Complete an initial skills and workstation assessment, then verify the local lab prerequisites | In progress | Round 1 and Round 2 self-assessments captured on 2026-10-31. Windows 10 / 8 GB RAM / 256 GB SSD / VS Code; virtualization and Windows build still unknown. Practical skills remain unverified. |
+| CH-002 | Linux / workstation | Verify Windows build, hardware virtualization status, and WSL2 readiness; report findings without changing system configuration | Open | Awaiting learner diagnostic output |
 
 ## Challenge lifecycle
 
@@ -30,4 +31,8 @@ Avoid turning every challenge into a step-by-step tutorial. Hints should be incr
 
 ## Known gaps
 
-No technical weaknesses have been assessed yet. Do not infer weaknesses from missing records; assess them through practical work.
+- Windows build and virtualization support have not yet been verified.
+- Practical skill levels across the technical domains have not yet been tested.
+- No technical challenge has been passed yet.
+
+Do not infer weaknesses from missing records; assess them through practical work.
