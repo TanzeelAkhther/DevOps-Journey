@@ -18,7 +18,7 @@
 | Bash / shell | Not specified | Not assessed |
 | Python | Basic syntax and scripts | Practical scripting not yet assessed |
 | Git and GitHub | Can use branches and resolve conflicts | Practical workflow not yet assessed |
-| Docker / containers | Understands concepts | Hands-on container skills not yet assessed |
+| Docker / containers | Understands concepts; Docker Desktop installed | Hands-on container skills and runtime health not yet assessed |
 | CI/CD | Some theoretical DevOps knowledge | Not assessed |
 | Cloud platform | Has used Azure; no current access | Practical cloud skills not yet assessed |
 | Terraform / IaC | Not specified | Not assessed |
@@ -37,15 +37,16 @@
 | RAM | 8 GB |
 | Storage | 256 GB SSD; free space to be confirmed |
 | Preferred editor / IDE | VS Code |
-| Terminal / shell | To be confirmed |
-| Local virtualization | Unknown; WSL2 / hardware virtualization support not yet checked |
-| Container runtime | Not installed / status unknown |
+| Linux environment | WSL with Ubuntu installed |
+| Container tooling | Docker Desktop installed |
+| Docker / WSL integration | Not yet verified |
+| Local virtualization | WSL is installed; virtualization configuration details not yet verified |
 | Cloud accounts / free-tier access | Has used Azure previously; no current access |
 | Monthly learning budget | Prefer free tier / $0 |
 
 ### Environment constraints and initial recommendation
 
-Use a lightweight local-first lab. Check Windows version/build and hardware virtualization support before choosing WSL2. Prefer WSL2 with Ubuntu if supported; otherwise use a suitable lightweight alternative. With 8 GB RAM, avoid multiple concurrent VMs and defer resource-heavy local Kubernetes clusters. Prefer free local labs and only use cloud resources with explicit cost controls.
+Use a lightweight local-first lab with the existing WSL Ubuntu and Docker Desktop installations. Verify the Ubuntu distribution, Docker daemon health, and Docker Desktop WSL integration before making configuration changes. With 8 GB RAM, avoid multiple concurrent VMs and defer resource-heavy local Kubernetes labs. Prefer free local labs and only use cloud resources with explicit cost controls.
 
 ## Learning preferences
 
@@ -68,4 +69,5 @@ Specific role, geography, timeline, and employer requirements: to be confirmed.
 | Date | Assessment | Result | Evidence |
 |---|---|---|---|
 | 2026-10-31 | Round 1 self-assessment | Early practical experience; theory and introductory familiarity across several domains | Learner-reported answers; practical skills not yet verified |
-| 2026-10-31 | Round 2 workstation assessment | Windows 10, 8 GB RAM, 256 GB SSD, VS Code, no current Azure access, $0 preferred budget; virtualization unknown | Learner-reported answers |
+| 2026-10-31 | Round 2 workstation assessment | Windows 10, 8 GB RAM, 256 GB SSD, VS Code, no current Azure access, $0 preferred budget | Learner-reported answers |
+| 2026-10-31 | Lab tooling clarification | WSL Ubuntu and Docker Desktop are installed | Learner report; operational health and integration not yet tested |
